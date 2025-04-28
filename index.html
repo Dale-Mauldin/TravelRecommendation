@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel Recommendation</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root">
+      <div id="nav">
+        <div id="left">
+          <p id="logo-title">TravelBloom</p>
+        </div>
+
+        <div id="center">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+        <div id="right">
+          <form id="search">
+            <input type="text" id="search-input" placeholder="Search"/>
+            <img src="./assets/search.svg" id="search-icon" />
+            <button id="go" type="submit" class="search-button">Search</button>
+            <button id="clear" type="button" class="search-button">
+              Clear
+            </button>
+          </form>
+          <div id="results" class="hidden">
+            <div class="top-bar">
+              <p id="time-view"></p>
+            </div>
+            <div class="result-items-box" id="results-container">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="intro-box">
+          <div id="intro-desc">
+            <h1 id="title">DISCOVER YOUR DREAM DESTINATION</h1>
+            <p id="description">
+              Embark on a journey through new horizons, embracing diverse 
+              cultures and breathtaking landscapes as you chase the places 
+              that capture your heart and spark your sense of wonder.
+            </p>
+            <button type="button" id="book-now">BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

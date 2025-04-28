@@ -1,0 +1,73 @@
+#placeholder {
+  width: 408px;
+}
+
+#contact-us {
+  width: 100%;
+  display: flex;
+  gap: 80px;
+}
+
+#contact-us-title {
+  color: red;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact-us-title h1 {
+  font-size: 70px;
+}
+
+#contact-us-form-box {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-us-form {
+  width: 100%;
+}
+
+.input-box {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-label {
+  font-size: 16px;
+  color: red;
+}
+
+.input-input {
+  font-size: 16px;
+  padding: 15px;
+  border: 1px red;
+  background-color: transparent;
+  border-radius: 5px;
+  color: red;
+}
+
+textarea {
+  height: 150px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid red;
+  color: red;
+}
+
+.submit {
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
